@@ -1,5 +1,17 @@
 # react-mentions
 
+## 4.6.0
+
+### Minor Changes
+
+- preact compatibility
+
+## 4.5.0
+
+### Patch Changes
+
+- Modifications to allow react-mentions to work with preact
+
 ## 4.5.0
 
 ### Minor Changes
