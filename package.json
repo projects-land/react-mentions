@@ -4,11 +4,13 @@
   "description": "React mentions input",
   "main": "dist/react-mentions.cjs.js",
   "module": "dist/react-mentions.esm.js",
+  "types": "types/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "scripts": {
-    "build": "preconstruct build && cp src/index.d.ts dist/",
+    "build": "preconstruct build",
     "format": "prettier --write --no-semi --single-quote --trailing-comma es5 \"{src,test,demo/src}/**/*.js\"",
     "lint": "eslint --max-warnings=0 --ext .js src test demo",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development webpack-dev-server --config demo/webpack.config.js",
