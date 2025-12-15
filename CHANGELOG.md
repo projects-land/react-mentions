@@ -1,5 +1,11 @@
 # react-mentions
 
+## 4.6.3
+
+### Patch Changes
+
+- Updating dependencies
+
 ## 4.6.0
 
 ### Minor Changes
